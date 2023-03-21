@@ -15,7 +15,7 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-Here is a first representation of the drawer:
+Here is a representation of the drawer:
 
 
 
@@ -24,5 +24,25 @@ Here is a first representation of the drawer:
 
 
 
-![Screenshot (10)](https://user-images.githubusercontent.com/70072840/226759132-a8b7d423-740d-4406-ad41-0bbf259c1521.png)
+
+
+![Screenshot (13)](https://user-images.githubusercontent.com/70072840/226762290-2e0b6ae5-d1ef-4d15-b5b8-0dcb59b3f319.png)
+
+
+
+
+And here we have the screen wich launch when we clicked on "Account" button:
+
+
+
+
+
+
+
+
+
+
+
+![Screenshot (14)](https://user-images.githubusercontent.com/70072840/226762469-42e7f175-0b04-43d4-ae79-64b02c01f25f.png)
+
 
