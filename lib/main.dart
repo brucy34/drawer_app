@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Flutter Home Page'),
     );
   }
 }
@@ -73,12 +73,12 @@ class _MyHomePageState extends State<MyHomePage> {
       drawer: Drawer(
         child: ListView(
           children:[
-            DrawerHeader(child: Icon(Icons.menu),
+            DrawerHeader(child: Icon(Icons.person),
             decoration: BoxDecoration(color: Colors.deepPurpleAccent),),
             ListTile(title:Text("Account"),onTap:(){
 
                 Navigator.push(context, MaterialPageRoute(
-                builder: (a){return ShoppingCart();},
+                builder: (_){return ShoppingCart();},
               )
                 );
             } ,),
