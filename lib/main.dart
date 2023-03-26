@@ -73,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
       drawer: Drawer(
         child: ListView(
           children:[
-            DrawerHeader(child: Icon(Icons.person),
+            DrawerHeader(child: Icon(Icons.person,size: 150.0,),
             decoration: BoxDecoration(color: Colors.deepPurpleAccent),),
             ListTile(title:Text("Account"),onTap:(){
 
@@ -95,7 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
         actions: [
           IconButton(onPressed: () {print("YOu clicked on me");}, icon: Icon(Icons.shopping_cart)),
-          IconButton(onPressed: () {print("I'm your boss");}, icon: Icon(Icons.person)),
+          IconButton(onPressed: () {print("I'm your boss");}, icon: Icon(Icons.person,size:50.0)),
         ],
       ),
       body: Center(
